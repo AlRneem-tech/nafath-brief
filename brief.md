@@ -16,11 +16,17 @@ An emergency responder's mobile app should keep essential information available 
 
 Resource: Android Developers - Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 ## Networking
+5G network slicing allows an operator to create logically separated networks on shared physical infrastructure, with different performance and management requirements. A dedicated slice could prioritize emergency responders' traffic and support service reliability during congestion. However, slicing does not guarantee uninterrupted service by itself. Radio coverage, transport capacity, core network failures, and power outages must also be addressed.
 
+Resource: 3GPP - Release 15 - https://www.3gpp.org/specifications-technologies/releases/release-15
 ## Cybersecurity
+The incident response lifecycle includes preparation; detection and analysis; containment, eradication, and recovery; and post-incident activity. During an attack on the emergency 5G service, the team should identify affected systems, limit the attack's spread, remove the threat, restore services safely, and document lessons learned. Preparation and clear responsibilities help responders act quickly while preserving evidence and maintaining essential communications where possible.
 
+Resource: NIST - Computer Security Incident Handling Guide - https://csrc.nist.gov/pubs/sp/800/61/r2/final
 ## Data
+A star schema stores measurable facts, such as service usage, in a central fact table connected directly to dimension tables such as date and region. A snowflake schema normalizes dimensions into additional related tables. For reporting usage by region and day, a star schema is often simpler because analysts can query the fact table and its dimensions with fewer joins. The choice should still reflect data quality and maintenance needs.
 
+Resource: Microsoft - Star schema guidance - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
 
 ## Open Question
