@@ -28,5 +28,6 @@ A star schema stores measurable facts, such as service usage, in a central fact 
 
 Resource: Microsoft - Star schema guidance - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
-
+A common misconception in cybersecurity is that installing a firewall and antivirus software is enough to secure a critical service. In reality, security also requires timely patching, access control, continuous monitoring, incident response planning, and regular testing. For an emergency 5G service, relying on a single defensive layer could leave important systems vulnerable to attacks and service disruption.
 ## Open Question
+How can an emergency 5G operator maintain essential communications for first responders during a cyberattack while isolating compromised systems and preserving evidence for investigation?
